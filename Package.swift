@@ -1,4 +1,3 @@
-
 // swift-tools-version:5.2
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
@@ -20,11 +19,8 @@ let package = Package(
       path: ".",
       sources: [
         "test/Hello.cc",
-      ],
-      Headers: [
-        "test/Hello.h",
-      ],
-    )
+      ]
+    ),
   ]
 )
 
