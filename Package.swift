@@ -13,18 +13,18 @@ let package = Package(
         "spm-demo",
       ]
     ),
-    targets: [
-      .target(
-        name: "spm-demo",
-        path: ".",
-        sources: [
-          "test/Hello.cc",
-        ],
-        Headers: [
-          "test/Hello.h",
-        ],
-      )
-    ]
   ],
+  targets: [
+    .target(
+      name: "spm-demo",
+      path: ".",
+      sources: [
+        "test/Hello.cc",
+      ],
+      Headers: [
+        "test/Hello.h",
+      ],
+    )
+  ]
 )
 
