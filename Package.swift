@@ -17,6 +17,15 @@ let package = Package(
     .target(
       name: "spm-demo",
       path: ".",
+      exclude: [
+        "test/AppDelegate.h",
+        "test/AppDelegate.m",
+        "test/main.m",
+        "test/SceneDelegate.h",
+        "test/SceneDelegate.m",
+        "test/ViewController.h",
+        "test/ViewController.m",
+      ],
       sources: [
         "test/Hello.cc",
       ]
