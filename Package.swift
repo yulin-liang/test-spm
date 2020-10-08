@@ -28,7 +28,8 @@ let package = Package(
       ],
       sources: [
         "test/Hello.cc",
-      ]
+      ],
+      publicHeadersPath: "test/"
     ),
   ]
 )
