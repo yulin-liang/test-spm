@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.2
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 /*
@@ -18,10 +18,17 @@ let package = Package(
     products: [
         .library(name: "PlayingCard", targets: ["PlayingCard"]),
     ],
+    dependencies: [
+      .package(
+        name: "gRPC",
+        url: "https://github.com/firebase/grpc-SwiftPM.git",
+        .revision("5bb2669317ae2183f4cb00c675423af1924f0b46")
+      ),
+    ],
     targets: [
         .target(
             name: "PlayingCard",
-            dependencies: []),
+            dependencies: [.product(name: "gRPC-cpp", package: "gRPC"),]),
         .testTarget(
             name: "PlayingCardTests",
             dependencies: ["PlayingCard"]),
