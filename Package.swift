@@ -13,9 +13,19 @@ let package = Package(
       ]
     ),
   ],
+  dependencies: [
+    .package(
+      name: "gRPC",
+      url: "https://github.com/yulin-liang/grpc.git",
+      .revision("9a7a2fab18823c107ca61d187047981dc8cd2314")
+    ),
+  ],
   targets: [
     .target(
       name: "spm-demo",
+      dependencies: [
+        .product(name: "gRPC-Core", package: "gRPC"),
+      ],
       path: ".",
       exclude: [
         "test/AppDelegate.h",
