@@ -18,18 +18,17 @@ let package = Package(
     products: [
         .library(name: "PlayingCard", targets: ["PlayingCard"]),
     ],
-//    dependencies: [
-//      .package(
-//        name: "gRPC",
-//        url: "https://github.com/yulin-liang/grpc.git",
-//        .revision("9a7a2fab18823c107ca61d187047981dc8cd2314")
-//      ),
-//    ],
+    dependencies: [
+      .package(
+        name: "gRPC",
+        url: "https://github.com/yulin-liang/grpc.git",
+        .revision("9a7a2fab18823c107ca61d187047981dc8cd2314")
+      ),
+    ],
     targets: [
         .target(
             name: "PlayingCard",
-//            dependencies: [.product(name: "gRPC-Core", package: "gRPC"),]),
-          dependencies: []),
+            dependencies: [.product(name: "gRPC-Core", package: "gRPC"),]),
         .testTarget(
             name: "PlayingCardTests",
             dependencies: ["PlayingCard"]),
