@@ -1,46 +1,29 @@
-// swift-tools-version:5.2
+// swift-tools-version:4.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
+
+/*
+ This source file is part of the Swift.org open source project
+
+ Copyright 2015 Apple Inc. and the Swift project authors
+ Licensed under Apache License v2.0 with Runtime Library Exception
+
+ See http://swift.org/LICENSE.txt for license information
+ See http://swift.org/CONTRIBUTORS.txt for Swift project authors
+*/
 
 import PackageDescription
 
 let package = Package(
-  name: "spm-demo",
-  products: [
-    .library(
-      name: "spm-demo",
-      targets: [
-        "spm-demo",
-      ]
-    ),
-  ],
-  dependencies: [
-    .package(
-      name: "gRPC",
-      url: "https://github.com/firebase/grpc-SwiftPM.git",
-      .revision("5bb2669317ae2183f4cb00c675423af1924f0b46")
-    ),
-  ],
-  targets: [
-    .target(
-      name: "spm-demo",
-      dependencies: [
-        .product(name: "gRPC-cpp", package: "gRPC"),
-      ],
-      path: ".",
-      exclude: [
-        "test/AppDelegate.h",
-        "test/AppDelegate.m",
-        "test/main.m",
-        "test/SceneDelegate.h",
-        "test/SceneDelegate.m",
-        "test/ViewController.h",
-        "test/ViewController.m",
-      ],
-      sources: [
-        "test/Hello.cc",
-      ],
-      publicHeadersPath: "test/"
-    ),
-  ]
+    name: "PlayingCard",
+    products: [
+        .library(name: "PlayingCard", targets: ["PlayingCard"]),
+    ],
+    targets: [
+        .target(
+            name: "PlayingCard",
+            dependencies: []),
+        .testTarget(
+            name: "PlayingCardTests",
+            dependencies: ["PlayingCard"]),
+    ]
 )
-

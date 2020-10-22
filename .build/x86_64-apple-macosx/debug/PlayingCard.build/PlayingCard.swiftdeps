@@ -1,0 +1,126 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlayingCard"
+- "<"
+provides-nominal:
+- "11PlayingCardAAV"
+provides-member:
+- ["11PlayingCardAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "<"
+- "<="
+- "=="
+- ">"
+- ">="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Comparable"
+- "CustomStringConvertible"
+- "Equatable"
+- !private "FloatLiteralType"
+- "Hashable"
+- !private "IntegerLiteralType"
+- "PlayingCard"
+- "Rank"
+- "String"
+- !private "StringLiteralType"
+- "Suit"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+depends-member:
+- ["SL", "<"]
+- ["SL", "<="]
+- ["SL", "=="]
+- ["SL", ">"]
+- ["SL", ">="]
+- ["SL", ""]
+- ["SL", "_rawHashValue"]
+- ["SL", "description"]
+- ["SL", "hash"]
+- ["SL", "hashValue"]
+- !private ["SL", "rank"]
+- !private ["SL", "suit"]
+- ["s23CustomStringConvertibleP", "<"]
+- ["s23CustomStringConvertibleP", "<="]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ">"]
+- ["s23CustomStringConvertibleP", ">="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "rank"]
+- !private ["s23CustomStringConvertibleP", "suit"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SQ", "<"]
+- ["SQ", "<="]
+- ["SQ", "=="]
+- ["SQ", ">"]
+- ["SQ", ">="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "rank"]
+- !private ["SQ", "suit"]
+- ["SH", "<"]
+- ["SH", "<="]
+- ["SH", "=="]
+- ["SH", ">"]
+- ["SH", ">="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "rank"]
+- !private ["SH", "suit"]
+- !private ["s6HasherV", "combine"]
+- ["11PlayingCardAAV", "<"]
+- ["11PlayingCardAAV", "<="]
+- ["11PlayingCardAAV", "=="]
+- ["11PlayingCardAAV", ">"]
+- ["11PlayingCardAAV", ">="]
+- ["11PlayingCardAAV", "Bool"]
+- ["11PlayingCardAAV", "PlayingCard"]
+- ["11PlayingCardAAV", "Rank"]
+- ["11PlayingCardAAV", "String"]
+- ["11PlayingCardAAV", "Suit"]
+- ["11PlayingCardAAV", "__derived_struct_equals"]
+- ["11PlayingCardAAV", "_rawHashValue"]
+- ["11PlayingCardAAV", "deinit"]
+- ["11PlayingCardAAV", "description"]
+- ["11PlayingCardAAV", "hash"]
+- ["11PlayingCardAAV", "hashValue"]
+- ["11PlayingCardAAV", "init"]
+- ["11PlayingCardAAV", "rank"]
+- ["11PlayingCardAAV", "suit"]
+- ["11PlayingCard4RankO", "deinit"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["11PlayingCard4SuitO", "deinit"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+depends-nominal:
+- "SL"
+- "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "11PlayingCardAAV"
+- "11PlayingCard4RankO"
+- !private "s27StringInterpolationProtocolP"
+- "11PlayingCard4SuitO"
+- !private "s16TextOutputStreamP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/module.modulemap"
+interface-hash: "0e57d7f714024c129e870501854cbd49"

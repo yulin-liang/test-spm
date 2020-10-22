@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "4dde2746446095e84aa4d19b1067beb5"
+build_time: [1603402310, 368670000]
+inputs:
+  "/Users/yulinliang/Documents/local-spm/test-spm/Sources/PlayingCard/PlayingCard.swift": [1547501362, 0]
+  "/Users/yulinliang/Documents/local-spm/test-spm/Sources/PlayingCard/Rank.swift": [1547501362, 0]
+  "/Users/yulinliang/Documents/local-spm/test-spm/Sources/PlayingCard/Suit.swift": [1547501362, 0]

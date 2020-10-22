@@ -1,0 +1,212 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Rank"
+- "<"
+provides-nominal:
+- "11PlayingCard4RankO"
+provides-member:
+- ["11PlayingCard4RankO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "<"
+- "<="
+- "=="
+- ">"
+- ">="
+- "Bool"
+- !private "BooleanLiteralType"
+- "CaseIterable"
+- "Comparable"
+- "CustomStringConvertible"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "Rank"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "~="
+depends-member:
+- ["s12CaseIterableP", "<"]
+- ["s12CaseIterableP", "<="]
+- ["s12CaseIterableP", "=="]
+- ["s12CaseIterableP", ">"]
+- ["s12CaseIterableP", ">="]
+- ["s12CaseIterableP", "AllCases"]
+- ["s12CaseIterableP", "RawValue"]
+- ["s12CaseIterableP", ""]
+- ["s12CaseIterableP", "_Default_AllCases"]
+- ["s12CaseIterableP", "_Default_RawValue"]
+- ["s12CaseIterableP", "_rawHashValue"]
+- ["s12CaseIterableP", "ace"]
+- ["s12CaseIterableP", "allCases"]
+- ["s12CaseIterableP", "description"]
+- ["s12CaseIterableP", "hash"]
+- ["s12CaseIterableP", "hashValue"]
+- ["s12CaseIterableP", "init"]
+- ["s12CaseIterableP", "jack"]
+- ["s12CaseIterableP", "king"]
+- ["s12CaseIterableP", "queen"]
+- ["s12CaseIterableP", "rawValue"]
+- ["SL", "<"]
+- ["SL", "<="]
+- ["SL", "=="]
+- ["SL", ">"]
+- ["SL", ">="]
+- ["SL", "AllCases"]
+- ["SL", "RawValue"]
+- ["SL", ""]
+- ["SL", "_Default_AllCases"]
+- ["SL", "_Default_RawValue"]
+- ["SL", "_rawHashValue"]
+- ["SL", "ace"]
+- ["SL", "allCases"]
+- ["SL", "description"]
+- ["SL", "hash"]
+- ["SL", "hashValue"]
+- ["SL", "init"]
+- ["SL", "jack"]
+- ["SL", "king"]
+- ["SL", "queen"]
+- ["SL", "rawValue"]
+- ["s23CustomStringConvertibleP", "<"]
+- ["s23CustomStringConvertibleP", "<="]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ">"]
+- ["s23CustomStringConvertibleP", ">="]
+- ["s23CustomStringConvertibleP", "AllCases"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_AllCases"]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "ace"]
+- ["s23CustomStringConvertibleP", "allCases"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "jack"]
+- ["s23CustomStringConvertibleP", "king"]
+- ["s23CustomStringConvertibleP", "queen"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SQ", "<"]
+- ["SQ", "<="]
+- ["SQ", "=="]
+- ["SQ", ">"]
+- ["SQ", ">="]
+- ["SQ", "AllCases"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_AllCases"]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "ace"]
+- ["SQ", "allCases"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "jack"]
+- ["SQ", "king"]
+- ["SQ", "queen"]
+- ["SQ", "rawValue"]
+- ["SH", "<"]
+- ["SH", "<="]
+- ["SH", "=="]
+- ["SH", ">"]
+- ["SH", ">="]
+- ["SH", "AllCases"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_AllCases"]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- ["SH", "ace"]
+- ["SH", "allCases"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "jack"]
+- ["SH", "king"]
+- ["SH", "queen"]
+- ["SH", "rawValue"]
+- ["11PlayingCard4RankO", "<"]
+- ["11PlayingCard4RankO", "<="]
+- ["11PlayingCard4RankO", "=="]
+- ["11PlayingCard4RankO", ">"]
+- ["11PlayingCard4RankO", ">="]
+- ["11PlayingCard4RankO", "AllCases"]
+- ["11PlayingCard4RankO", "Bool"]
+- ["11PlayingCard4RankO", "Rank"]
+- ["11PlayingCard4RankO", "RawValue"]
+- ["11PlayingCard4RankO", "String"]
+- ["11PlayingCard4RankO", "_Default_AllCases"]
+- ["11PlayingCard4RankO", "_Default_RawValue"]
+- ["11PlayingCard4RankO", "_rawHashValue"]
+- ["11PlayingCard4RankO", "ace"]
+- ["11PlayingCard4RankO", "allCases"]
+- ["11PlayingCard4RankO", "deinit"]
+- ["11PlayingCard4RankO", "description"]
+- ["11PlayingCard4RankO", "eight"]
+- ["11PlayingCard4RankO", "five"]
+- ["11PlayingCard4RankO", "four"]
+- ["11PlayingCard4RankO", "hash"]
+- ["11PlayingCard4RankO", "hashValue"]
+- ["11PlayingCard4RankO", "init"]
+- ["11PlayingCard4RankO", "jack"]
+- ["11PlayingCard4RankO", "king"]
+- ["11PlayingCard4RankO", "nine"]
+- ["11PlayingCard4RankO", "queen"]
+- ["11PlayingCard4RankO", "rawValue"]
+- ["11PlayingCard4RankO", "seven"]
+- ["11PlayingCard4RankO", "six"]
+- ["11PlayingCard4RankO", "ten"]
+- ["11PlayingCard4RankO", "three"]
+- ["11PlayingCard4RankO", "two"]
+- ["SY", "<"]
+- ["SY", "<="]
+- ["SY", "=="]
+- ["SY", ">"]
+- ["SY", ">="]
+- ["SY", "AllCases"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_AllCases"]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- ["SY", "ace"]
+- ["SY", "allCases"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "jack"]
+- ["SY", "king"]
+- ["SY", "queen"]
+- ["SY", "rawValue"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+depends-nominal:
+- "s12CaseIterableP"
+- "SL"
+- "s23CustomStringConvertibleP"
+- !private "s26DefaultStringInterpolationV"
+- "SQ"
+- "SH"
+- "11PlayingCard4RankO"
+- "SY"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/module.modulemap"
+interface-hash: "c949cc1f74be949d42ce622f75d551e5"

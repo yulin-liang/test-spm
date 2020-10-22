@@ -1,0 +1,25 @@
+{
+  "allExecutables" : [
+
+  ],
+  "builtTestProducts" : [
+    {
+      "packageName" : "PlayingCard",
+      "productName" : "PlayingCardPackageTests",
+      "testBinary" : "\/Users\/yulinliang\/Documents\/local-spm\/test-spm\/.build\/x86_64-apple-macosx\/debug\/PlayingCardPackageTests.xctest\/Contents\/MacOS\/PlayingCardPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+
+  ],
+  "swiftTargetMap" : {
+    "C.PlayingCard-debug.module" : "PlayingCard",
+    "C.PlayingCardTests-debug.module" : "PlayingCardTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

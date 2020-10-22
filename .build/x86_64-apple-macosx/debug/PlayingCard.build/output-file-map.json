@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/master.swiftdeps"
+  },
+  "/Users/yulinliang/Documents/local-spm/test-spm/Sources/PlayingCard/PlayingCard.swift": {
+    "dependencies": "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/PlayingCard.d",
+    "object": "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/PlayingCard.swift.o",
+    "swiftmodule": "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/PlayingCard~partial.swiftmodule",
+    "swift-dependencies": "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/PlayingCard.swiftdeps"
+  },
+  "/Users/yulinliang/Documents/local-spm/test-spm/Sources/PlayingCard/Rank.swift": {
+    "dependencies": "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/Rank.d",
+    "object": "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/Rank.swift.o",
+    "swiftmodule": "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/Rank~partial.swiftmodule",
+    "swift-dependencies": "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/Rank.swiftdeps"
+  },
+  "/Users/yulinliang/Documents/local-spm/test-spm/Sources/PlayingCard/Suit.swift": {
+    "dependencies": "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/Suit.d",
+    "object": "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/Suit.swift.o",
+    "swiftmodule": "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/Suit~partial.swiftmodule",
+    "swift-dependencies": "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/Suit.swiftdeps"
+  }
+}

@@ -1,0 +1,4 @@
+module PlayingCard {
+    header "/Users/yulinliang/Documents/local-spm/test-spm/.build/x86_64-apple-macosx/debug/PlayingCard.build/PlayingCard-Swift.h"
+    requires objc
+}
