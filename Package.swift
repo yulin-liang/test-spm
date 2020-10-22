@@ -28,7 +28,7 @@ let package = Package(
     targets: [
         .target(
             name: "PlayingCard",
-            dependencies: [.product(name: "gRPC-cpp", package: "gRPC"),]),
+            dependencies: [.product(name: "gRPC-Core", package: "gRPC"),]),
         .testTarget(
             name: "PlayingCardTests",
             dependencies: ["PlayingCard"]),
