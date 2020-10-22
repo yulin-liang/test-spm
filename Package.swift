@@ -24,7 +24,7 @@ let package = Package(
     .target(
       name: "spm-demo",
       dependencies: [
-        .product(name: "gRPC-Core", package: "gRPC"),
+        .product(name: "gRPC-cpp", package: "gRPC"),
       ],
       path: ".",
       exclude: [
