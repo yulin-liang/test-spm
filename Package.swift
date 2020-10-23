@@ -22,7 +22,7 @@ let package = Package(
       .package(
         name: "gRPC",
         url: "https://github.com/yulin-liang/grpc.git",
-        .revision("9f4f1fc35a3265e5b10ad2da536f5ec22ccfd2ea")
+        .revision("c3a890d7623ef42f2baf08a219d54b3a0da71d1e")
       ),
     ],
     targets: [
