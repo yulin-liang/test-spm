@@ -21,8 +21,8 @@ let package = Package(
     dependencies: [
       .package(
         name: "gRPC",
-        url: "https://github.com/yulin-liang/grpc.git",
-        .revision("0fb696062c1486a844c7f1e35bdfb1d9a44d9306")
+        url: "https://github.com/firebase/grpc-SwiftPM.git",
+        .revision("5bb2669317ae2183f4cb00c675423af1924f0b46")
       ),
     ],
     targets: [
